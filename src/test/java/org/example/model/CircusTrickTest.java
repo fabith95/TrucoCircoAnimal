@@ -14,17 +14,30 @@ class CircusTrickTest {
     @Test
     void leonRuge(){
         CircusTrick circus = new CircusTrick();
-        circus.silbatoLeon();
-        Assertions.assertEquals("rourou", circus.getRugir());
+        Assertions.assertEquals("roarroar", circus.getRugir());
     }
 
     @Test
     void vacaMugido(){
         CircusTrick circus = new CircusTrick();
-        circus.silbatoVaca();
-        Assertions.assertEquals("muumuu", circus.getMugidos());
+        Assertions.assertEquals("moomoo", circus.getMugidos());
     }
 
+    @Test
+    void dogDance(){
+        CircusTrick circus = new CircusTrick();
+        Assertions.assertEquals("blabla", circus.getDance());
+    }
 
+    @Test
+    void tortugaDuerme(){
+        CircusTrick circus = new CircusTrick();
+        Assertions.assertEquals("zzzzzz", circus.getDuerme());
+    }
 
+    @Test
+    void gatoMaulla() {
+        CircusTrick circus = new CircusTrick();
+        Assertions.assertEquals("miumiu", circus.getSalta());
+    }
 }
