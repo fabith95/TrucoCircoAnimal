@@ -24,9 +24,9 @@ class CircusTrickTest {
     }
 
     @Test
-    void dogDance(){
+    void perroBaila(){
         CircusTrick circus = new CircusTrick();
-        Assertions.assertEquals("blabla", circus.getDance());
+        Assertions.assertEquals("blabla", circus.getBaila());
     }
 
     @Test

@@ -3,7 +3,7 @@ package org.example.model;
 public class CircusTrick {
     private String rugir = "";
     private String mugidos= "";
-    private String dance = "";
+    private String baila = "";
     private String duerme = "";
     private String salta = "";
     public int TRUCO_ANIMAL = 2;
@@ -22,11 +22,11 @@ public class CircusTrick {
         return mugidos;
     }
 
-    public String getDance() {
+    public String getBaila() {
         for (int i = 0; i < TRUCO_ANIMAL; i++) {
-            this.dance += "bla";
+            this.baila += "bla";
         }
-        return dance;
+        return baila;
     }
 
     public String getDuerme() {
@@ -42,5 +42,4 @@ public class CircusTrick {
         }
         return salta;
     }
-
 }
